@@ -1,0 +1,8 @@
+ijulia:
+  build: .
+  command: ipython notebook --profile julia --ip 0.0.0.0
+  ports:
+    - "80:8998"
+  volumes:
+    - notebooks/:/data
+
